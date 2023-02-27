@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  /*debug*/
+  /* color: white;
+  font-weight: bold; */
+}
+
+.container-100 {
+  width: 100%;
+  margin: 0 auto;
+  /*debug*/
+  /* background-color: blanchedalmond; */
+}
+
+.container-80 {
+  width: 80%;
+  margin: 0 auto;
+}
