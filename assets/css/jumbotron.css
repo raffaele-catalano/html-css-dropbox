@@ -1,7 +1,8 @@
 .jumbotron {
   margin-top: 80px;
   margin-bottom: 160px;
-  height: 750px;
+  min-height: 700px;
+  max-height: 800px;
   /*debug*/
   background-color: #B4D0E7;
 }
@@ -9,7 +10,7 @@
 .jumbotron .container-h1 {
   width: 80%;
   margin: 0 auto;
-  padding-top: 80px;
+  padding: 40px 0 45px 0;
 }
 
 .jumbotron h1 {
@@ -18,15 +19,26 @@
 
 .jumbotron .text-box {
   flex-direction: column;
-  align-self: center;
-  width: 40%;
+  width: 30%;
   height: 100%;
   /*debug*/
   /* background-color: crimson; */
 }
 
+.text-box span:nth-child(2) {
+  margin: 15px 0 15px 0;
+}
+
+.text-box span:nth-child(3) {
+  font-size: 0.9rem;
+}
+
+.text-box span:last-child {
+  font-size: 2rem;
+}
+
 .jumbotron .img-box {
-  width: 60%;
+  width: 70%;
   height: 100%;
   /*debug*/
   /* background-color: blue; */
