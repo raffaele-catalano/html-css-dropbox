@@ -10,12 +10,6 @@ main .container-60 {
     height: 1200px;
 }
 
-
-main .container-60 h2 {
-  margin-bottom: 35px;
-  font-size: 2rem;
-}
-
 main .container-60 .business-plan-row {
   row-gap: 30px;
   column-gap: 30px;
@@ -28,12 +22,23 @@ main .container-60 .business-plan-col {
   height: 800px;
   line-height: 2rem;
   /*debug*/
-  border: 3px solid blue;
-  background-color: lightskyblue;
+  border: 3px solid red;
+  background-color: lightcoral;
 }
 
 main .container-60 .business-plan-target {
+  text-align: center;
   /*debug*/
-  border: 1px solid red;
-  background-color: lightcoral;
+  border: 1px solid blue;
+  background-color: lightskyblue;
+}
+
+main .container-60 .business-plan-info {
+  padding: 15px 20px;
+}
+
+.invisible-line {
+  width: 60px;
+  height: 5px;
+  border-top: 2px solid lightgray;
 }

@@ -49,3 +49,43 @@
 .py-3 {
   padding: 30px 0;
 }
+
+.btn {
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: #0061FF;
+  color: white;
+}
+
+.a-blue {
+  color: #0061FF;
+  text-decoration: underline;
+}
+
+.txt-blue {
+  color: #0061FF;
+}
+
+.txt-gray {
+  color: gray;
+}
+
+.txt-09 {
+  font-size: 0.9rem;
+}
+
+.txt-12 {
+  font-size: 1.2rem;
+}
+
+.txt-15 {
+  font-size: 1.5rem;
+}
+
+.txt-25 {
+  font-size: 2.5rem;
+}
+
+.txt-50 {
+  font-size: 5rem;
+}

@@ -13,10 +13,6 @@
   padding: 40px 0 40px 0;
 }
 
-.jumbotron h1 {
-  font-size: 5rem;
-}
-
 .jumbotron .text-box {
   flex-direction: column;
   width: 30%;
