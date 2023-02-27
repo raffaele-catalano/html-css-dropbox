@@ -1,36 +1,37 @@
 main {
   /*debug*/
   height: 2000px;
-  background-color: #cecece;
+  /* background-color: #cecece; */
 }
 
 main .container-60 {
     /*debug*/
-    background-color: bisque;
+    /* background-color: bisque; */
     height: 1200px;
 }
 
 main .container-60 .business-plan-row {
-  row-gap: 30px;
   column-gap: 30px;
+  margin-bottom: 30px;
   /*debug*/
-  border: 6px solid green;
-  background-color: lightgreen;
+  /* border: 6px solid green;
+  background-color: lightgreen; */
 }
 
 main .container-60 .business-plan-col {
   height: 800px;
-  line-height: 2rem;
+  line-height: 2rem;  
+  border: 1px solid gray;
   /*debug*/
-  border: 3px solid red;
-  background-color: lightcoral;
+
+  /* background-color: lightcoral; */
 }
 
 main .container-60 .business-plan-target {
   text-align: center;
+  border-bottom: 1px solid gray;
   /*debug*/
-  border: 1px solid blue;
-  background-color: lightskyblue;
+  /* background-color: lightskyblue; */
 }
 
 main .container-60 .business-plan-info {
@@ -41,4 +42,31 @@ main .container-60 .business-plan-info {
   width: 60px;
   height: 5px;
   border-top: 2px solid lightgray;
+}
+
+main .container-60 .business-plan-col-h {
+  width: 100%;
+  height: 250px;
+  border: 1px solid gray;
+  /*debug*/
+  /* background-color: lightcoral; */
+}
+
+.business-plan-col-h .business-plan-target {
+  height: 40px;
+}
+
+.business-plan-specs-h {
+  position: relative;
+  padding: 15px 0 10px 15px;
+}
+
+.business-plan-specs-h .btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.business-plan-specs-h .btn a {
+  color: white;
 }
