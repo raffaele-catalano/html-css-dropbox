@@ -1,8 +1,8 @@
 .jumbotron {
   margin-top: 80px;
   margin-bottom: 160px;
-  min-height: 700px;
-  max-height: 800px;
+  min-height: 650px;
+  max-height: 780px;
   /*debug*/
   background-color: #B4D0E7;
 }
@@ -10,7 +10,7 @@
 .jumbotron .container-h1 {
   width: 80%;
   margin: 0 auto;
-  padding: 40px 0 45px 0;
+  padding: 40px 0 40px 0;
 }
 
 .jumbotron h1 {
