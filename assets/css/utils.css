@@ -2,6 +2,10 @@
   display: flex;
 }
 
+.flex-dir-col{
+  flex-direction: column;
+}
+
 .align-cx {
   align-items: center;
 }
@@ -51,7 +55,7 @@
 }
 
 .btn {
-  padding: 5px 10px;
+  padding: 10px 10px;
   border-radius: 5px;
   background-color: #0061FF;
   color: white;
