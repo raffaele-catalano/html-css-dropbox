@@ -1,4 +1,39 @@
 main {
-  height: 1000px;
-  background-color: crimson;
+  /*debug*/
+  height: 2000px;
+  background-color: #cecece;
+}
+
+main .container-60 {
+    /*debug*/
+    background-color: bisque;
+    height: 1200px;
+}
+
+
+main .container-60 h2 {
+  margin-bottom: 35px;
+  font-size: 2rem;
+}
+
+main .container-60 .business-plan-row {
+  row-gap: 30px;
+  column-gap: 30px;
+  /*debug*/
+  border: 6px solid green;
+  background-color: lightgreen;
+}
+
+main .container-60 .business-plan-col {
+  height: 800px;
+  line-height: 2rem;
+  /*debug*/
+  border: 3px solid blue;
+  background-color: lightskyblue;
+}
+
+main .container-60 .business-plan-target {
+  /*debug*/
+  border: 1px solid red;
+  background-color: lightcoral;
 }
