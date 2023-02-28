@@ -85,6 +85,7 @@
   padding: 10px 10px;
   border: 1px solid black;
   border-radius: 5px;
+  background-color: white;
 }
 
 .a-blue {
@@ -106,6 +107,10 @@
 
 .txt-09 {
   font-size: 0.9rem;
+}
+
+.txt-11 {
+  font-size: 1.1rem;
 }
 
 .txt-12 {

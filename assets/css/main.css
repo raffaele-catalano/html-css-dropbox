@@ -131,10 +131,12 @@ main .container-60 .business-plan-col-h {
   /* background-color: blanchedalmond; */
 }
 
+/* ********************************************************************************* */
+
 .business-team-body {
   /*debug*/
   background-color: cornflowerblue;
-  height: 500px;
+  height: 550px;
 }
 
 .business-team-left {
@@ -184,25 +186,15 @@ main .container-60 .business-plan-col-h {
 
 .business-team-middle img {
   width: 25%;
-  /* padding-top: 40px;
-  margin-bottom: 30px;
-  margin-left: 40px; */
 }
 
 .business-team-middle hr {
-  /* margin-left: 40px;
-  margin-bottom: 50px; */
   border: 1px solid #D0D0D3;
 }
 
 .business-team-middle-content {
   padding: 50px;
 }
-
-/* .business-team-middle p {
-  margin-left: 40px;
-  margin-bottom: 50px;
-} */
 
 .business-team-right {
   width: 30%;
@@ -236,4 +228,23 @@ main .container-60 .business-plan-col-h {
 
 #clear {
   background-color: #FFD830;
+}
+/* ****************************************************************************** */
+.cta {
+  height: 350px;
+  background-color: #B4D0E7;
+}
+
+.cta-text {
+  padding: 50px;
+  margin-right: 200px;
+}
+
+.cta-text h2 {
+  font-size: 3rem;
+  color: #61082B;
+}
+
+.cta-btn {
+  padding: 50px;
 }
