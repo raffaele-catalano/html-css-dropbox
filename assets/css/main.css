@@ -106,15 +106,20 @@ main .container-60 .business-plan-col-h {
 
 .business-op-row {
   /*debug*/
-  height: 1200px;
+  /* height: 1200px;
   border: 2px solid green;
-  background-color: lightgreen;
+  background-color: lightgreen; */
 }
 
 .business-op-col {
-  /*debug*/
   width: calc(100% / 3);
-  height: 500px;
+  padding: 10px 50px 60px 0;
+  /*debug*/
+  /* height: 600px;
   border: 1px solid blue;
-  background-color: lightskyblue;
+  background-color: lightskyblue; */
+}
+
+.business-op-col img {
+  width: 100%;
 }
