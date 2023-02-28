@@ -19,9 +19,9 @@ main .container-60 .business-plan-row {
 }
 
 main .container-60 .business-plan-col {
-  height: 800px;
+  height: 1000px;
   line-height: 2rem;  
-  border: 1px solid gray;
+  border: 1px solid #D0D0D3;
   /*debug*/
 
   /* background-color: lightcoral; */
@@ -29,7 +29,7 @@ main .container-60 .business-plan-col {
 
 main .container-60 .business-plan-target {
   text-align: center;
-  border-bottom: 1px solid gray;
+  border-bottom: 1px solid #D0D0D3;
   /*debug*/
   /* background-color: lightskyblue; */
 }
@@ -38,16 +38,20 @@ main .container-60 .business-plan-info {
   padding: 15px 20px;
 }
 
+main .container-60 .business-plan-info ul {
+  line-height: 2.5rem;
+}
+
 .invisible-line {
   width: 60px;
   height: 5px;
-  border-top: 2px solid lightgray;
+  border-bottom: 2px solid #D0D0D3;
 }
 
 main .container-60 .business-plan-col-h {
   width: 100%;
   height: 250px;
-  border: 1px solid gray;
+  border: 1px solid #D0D0D3;
   /*debug*/
   /* background-color: lightcoral; */
 }
