@@ -19,7 +19,7 @@
 }
 
 .strong {
-  font-weight: bold;
+  font-weight: 900;
 }
 
 .upper {
@@ -85,6 +85,10 @@
 
 .a-blue {
   color: #0061FF;
+  text-decoration: underline;
+}
+
+.a-white {
   text-decoration: underline;
 }
 
