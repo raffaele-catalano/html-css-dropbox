@@ -77,6 +77,12 @@
   color: white;
 }
 
+.btn-white {
+  padding: 10px 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
 .a-blue {
   color: #0061FF;
   text-decoration: underline;
