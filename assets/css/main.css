@@ -82,8 +82,8 @@ main .container-60 .business-plan-col-h {
                 /*  SECOND SECTION  */
 
 .partner-box-img {
-  width: 50%;
-  margin-right: 20px;
+  width: 55%;
+  margin-right: 40px;
   /*debug*/
   /* height: 600px;
   background-color: lightgreen;
@@ -95,9 +95,26 @@ main .container-60 .business-plan-col-h {
 }
 
 .partner-box-text {
-  width: 50%;
+  width: 45%;
   /*debug*/
   /* height: 600px;
   background-color: lightskyblue;
   border: 1px solid blue; */
+}
+
+                /*  THIRD SECTION  */
+
+.business-op-row {
+  /*debug*/
+  height: 1200px;
+  border: 2px solid green;
+  background-color: lightgreen;
+}
+
+.business-op-col {
+  /*debug*/
+  width: calc(100% / 3);
+  height: 500px;
+  border: 1px solid blue;
+  background-color: lightskyblue;
 }
