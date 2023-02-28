@@ -4,6 +4,10 @@ main {
   /* background-color: #cecece; */
 }
 
+/*-----------------------------------------------*/
+
+                /*  FIRST SECTION  */
+
 main .container-60 {
     /*debug*/
     /* background-color: bisque; */
@@ -73,4 +77,27 @@ main .container-60 .business-plan-col-h {
 
 .business-plan-specs-h .btn a {
   color: white;
+}
+
+                /*  SECOND SECTION  */
+
+.partner-box-img {
+  width: 50%;
+  margin-right: 20px;
+  /*debug*/
+  /* height: 600px;
+  background-color: lightgreen;
+  border: 1px solid green; */
+}
+
+.partner-box-img img {
+  width: 100%;
+}
+
+.partner-box-text {
+  width: 50%;
+  /*debug*/
+  /* height: 600px;
+  background-color: lightskyblue;
+  border: 1px solid blue; */
 }
