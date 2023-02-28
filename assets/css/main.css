@@ -123,3 +123,17 @@ main .container-60 .business-plan-col-h {
 .business-op-col img {
   width: 100%;
 }
+
+                /*  FOURTH SECTION  */
+
+.business-team-title {
+  width: 60%;
+  /*debug*/
+  background-color: blanchedalmond;
+}
+
+.business-team-body {
+  /*debug*/
+  background-color: cornflowerblue;
+  height: 1000px;
+}
