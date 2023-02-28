@@ -11,7 +11,7 @@ main {
 main .container-60 {
     /*debug*/
     /* background-color: bisque; */
-    height: 1200px;
+    min-height: 1200px;
 }
 
 main .container-60 .business-plan-row {
@@ -23,7 +23,7 @@ main .container-60 .business-plan-row {
 }
 
 main .container-60 .business-plan-col {
-  height: 1000px;
+  min-height: 1000px;
   line-height: 2rem;  
   border: 1px solid #D0D0D3;
   /*debug*/
@@ -104,12 +104,11 @@ main .container-60 .business-plan-col-h {
 
                 /*  THIRD SECTION  */
 
-.business-op-row {
-  /*debug*/
-  /* height: 1200px;
+/* .business-op-row {
+  height: 1200px;
   border: 2px solid green;
-  background-color: lightgreen; */
-}
+  background-color: lightgreen;
+} */
 
 .business-op-col {
   width: calc(100% / 3);
@@ -129,11 +128,112 @@ main .container-60 .business-plan-col-h {
 .business-team-title {
   width: 60%;
   /*debug*/
-  background-color: blanchedalmond;
+  /* background-color: blanchedalmond; */
 }
 
 .business-team-body {
   /*debug*/
   background-color: cornflowerblue;
-  height: 1000px;
+  height: 500px;
+}
+
+.business-team-left {
+  width: 30%;
+  /* height: 30vw; */
+}
+
+.team-lx {
+  width: 50%;
+  height: 50%;
+  /*debug*/
+  /* background-color: lightcoral;
+  border: 1px solid black; */
+}
+
+.team-lx img {
+  width: 60%;
+  filter: invert(100);
+}
+
+#designit {
+  background-color: #A2D39B;
+}
+
+#arizona {
+  background-color: #61082B;
+}
+
+#florida {
+  background-color: #0093CE;
+}
+
+#florida img {
+  object-fit: contain;
+}
+
+#topps {
+  background-color: #FF1C1C;
+}
+
+
+.business-team-middle {
+  width: 40%;
+  background-color: #F5F5F5;
+  overflow-y: scroll;
+}
+
+.business-team-middle img {
+  width: 25%;
+  /* padding-top: 40px;
+  margin-bottom: 30px;
+  margin-left: 40px; */
+}
+
+.business-team-middle hr {
+  /* margin-left: 40px;
+  margin-bottom: 50px; */
+  border: 1px solid #D0D0D3;
+}
+
+.business-team-middle-content {
+  padding: 50px;
+}
+
+/* .business-team-middle p {
+  margin-left: 40px;
+  margin-bottom: 50px;
+} */
+
+.business-team-right {
+  width: 30%;
+  /*debug*/
+}
+
+.team-rx {
+  width: 50%;
+  height: 50%;
+  /*debug*/
+  /* background-color: lightcoral;
+  border: 1px solid black; */
+}
+
+.team-rx img {
+  width: 60%;
+  filter: invert(100);
+}
+
+#bicycle {
+  background-color: #D5001F;
+}
+
+#hearst {
+  background-color: #B4D0E7;
+}
+
+#lonely {
+  background-color: #0D2481;
+}
+
+#clear {
+  background-color: #FFD830;
 }
