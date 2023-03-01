@@ -9,10 +9,6 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
-/* section {
-  margin-bottom: 20px;
-} */
-
 li {
   list-style: none;
 }
@@ -20,9 +16,6 @@ li {
 a {
   text-decoration: none;
   color: black;
-  /*debug*/
-  /* color: white;
-  font-weight: bold; */
 }
 
 a:hover {
@@ -42,23 +35,16 @@ hr {
 .container-100 {
   width: 100%;
   margin: 0 auto;
-  /*debug*/
-  /* background-color: blanchedalmond; */
 }
 
 .container-70 {
   width: 70%;
   margin: 0 auto;
-  /*debug*/
-  /* background-color: bisque;
-  height: 1000px; */
 }
 
 .container-80 {
   width: 80%;
   margin: 0 auto;
-  /*debug*/
-  /* background-color: lightblue; */
 }
 
 .container-60 {

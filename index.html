@@ -74,7 +74,7 @@
         <a href="#trial"><i class="fa-solid fa-arrow-down"></i></a>
       </div>
 
-      <div class="img-box">
+      <div class="img-box flex">
         <img src="assets/img/jumbo.png" alt="jumbotron" title="jumbotron">
       </div>
     </div>
@@ -85,13 +85,27 @@
     <div class="container-60">
 <!-- first section -->
       <section class="mbtm-15" id="trial">
-        <h2 class="strong txt-25 mbtm-4" >Trova il piano Dropbox Business che fa per te</h2>
-      <input type="radio" name="mensile"> Fatturazione Mensile
-      <input class="mbtm-3" type="radio" name="annuale"> Fatturazione Annuale
-      <!-- *********************CAMBIARE IN FAKE BUTTONS *************************** -->
+        
+        <div class="billing mbtm-3">
+
+          <h2 class="strong txt-25 mbtm-4" >Trova il piano Dropbox Business che fa per te</h2>
+          
+          <span id="monthly">
+            <i class="fa-solid fa-circle-dot"></i>
+            <span class="caps">fatturazione mensile</span>
+          </span>
+
+          <span id="yearly">
+            <i class="fa-regular fa-circle"></i>
+            <span class="caps">fatturazione mensile</span>
+          </span>
+
+        </div>
+
       <div class="business-plan-row flex">
 <!-- first vertical column -->
         <div class="business-plan-col">
+
           <div class="business-plan-target">
             <span><i class="fa-regular fa-user"></i></span>
             <span class="caps">singolo</span>
@@ -118,9 +132,7 @@
             <a class="btn py-3" href="#">Prova gratis per 30 giorni</a>
             <br>
             <span>oppure <span><a class="a-blue mbtm-2" href="#">acquista ora</a></span></span>
-            <div class="invisible-line py-2">
-              &nbsp;
-            </div>
+            <hr>
           <div class="business-plan-specs py-3">
               <h3>Punti salienti del piano</h3>
               <ul>
@@ -176,9 +188,7 @@
             <a class="btn py-3" href="#">Prova gratis per 30 giorni</a>
             <br>
             <span>oppure <span><a class="a-blue mbtm-2" href="#">acquista ora</a></span></span>
-            <div class="invisible-line py-2">
-              &nbsp;
-            </div>
+            <hr>
           <div class="business-plan-specs py-3">
               <h3>Punti salienti del piano</h3>
               <ul>
@@ -242,9 +252,7 @@
             <a class="btn py-3" href="#">Prova gratis per 30 giorni</a>
             <br>
             <span>oppure <span><a class="a-blue mbtm-2" href="#">acquista ora</a></span></span>
-            <div class="invisible-line py-2">
-              &nbsp;
-            </div>
+            <hr>
           <div class="business-plan-specs py-3">
               <h3>Punti salienti del piano</h3>
               <ul>
@@ -303,10 +311,12 @@
       </section>
 <!-- second section -->
       <section class="flex mbtm-15">
+
         <div class="partner-box-img">
           <img src="assets/img/partner.png" alt="partner" title="partner-dropbox">
         </div>
         <div class="partner-box-text flex flex-dir-col just-cont-cx">
+          
           <h3 class="strong txt-15 mbtm-3">Entra in contatto con un partner Dropbox</h3>
           <p class="mbtm-4">
             Trova un partner Dropbox e HelloSign di fiducia. Ottieni le soluzioni e i servizi necessari per raggiungere i tuoi obiettivi aziendali, tra cui implementazione, integrazione, gestione e supporto continui.
@@ -373,7 +383,7 @@
       <section class="mbtm-2">
         <div class="business-team-title">
           <h2 class="strong txt-25 py-3">Più di 500 team utilizzano Dropbox Business</h2>
-          <a class="a-blue strong" href="#">Scopri di più sui nostri clienti</a>
+          <a class="a-blue txt-12" href="#">Scopri di più sui nostri clienti</a>
         </div>
       </section>
     </div>
@@ -428,15 +438,15 @@
       </section>
 <!-- fourth section cta-->
       <section class="mbtm-15">
-        <div class="cta flex align-cx just-cont-cx">
+        <div class="cta flex align-cx just-cont-cx f-wrap">
 
           <!-- aumenta padding -->
           <div class="cta-text flex">
             <h2 class="strong px-3">Porta Dropbox Business <br> nella tua azienda.</h2>
           </div>
 
-          <div class="cta-btn flex">
-            <span><a class="txt-11 btn-white" href="#">Inizia la tua prova gratuita</a></span>
+          <div class="cta-btn flex f-wrap">
+            <span><a class="txt-12 btn-white" href="#">Inizia la tua prova gratuita</a></span>
           </div>
 
         </div>

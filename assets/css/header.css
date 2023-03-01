@@ -27,8 +27,6 @@ header .container-100 img {
   width: 100%;
   min-height: 80px;
   justify-content: space-between;
-  /*debug*/
-  /* background-color: brown; */
 }
 
 .nav ul li {

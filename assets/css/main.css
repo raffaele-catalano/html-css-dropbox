@@ -7,33 +7,58 @@ main {
                 /*  FIRST SECTION  */
 
 main .container-60 {
-    /*debug*/
-    /* background-color: bisque; */
     min-height: 1200px;
+}
+
+.billing #monthly {
+  margin-right: 10px;
+  font-size: 1.1rem;
+}
+
+.billing .fa-circle-dot {
+  margin-right: 1px;
+  color: #0061FF;
+  font-size: 1.2rem;
+}
+
+.billing .fa-circle-dot:hover {
+  cursor: pointer;
+}
+
+
+.billing #yearly {
+  font-size: 1.1rem;
+}
+
+.billing .fa-circle {
+  margin-right: 1px;
+  color: #D0D0D3;
+  font-size: 1.2rem;
+}
+
+.billing .fa-circle:hover {
+  cursor: pointer;
 }
 
 main .container-60 .business-plan-row {
   column-gap: 30px;
   margin-bottom: 30px;
-  /*debug*/
-  /* border: 6px solid green;
-  background-color: lightgreen; */
+}
+
+main hr {
+  margin-top: 25px;
+  border: 1px solid #D0D0D3;
 }
 
 main .container-60 .business-plan-col {
   min-height: 1000px;
   line-height: 2rem;  
   border: 1px solid #D0D0D3;
-  /*debug*/
-
-  /* background-color: lightcoral; */
 }
 
 main .container-60 .business-plan-target {
   text-align: center;
   border-bottom: 1px solid #D0D0D3;
-  /*debug*/
-  /* background-color: lightskyblue; */
 }
 
 main .container-60 .business-plan-info {
@@ -44,18 +69,10 @@ main .container-60 .business-plan-info ul {
   line-height: 2.5rem;
 }
 
-.invisible-line {
-  width: 60px;
-  height: 5px;
-  border-bottom: 2px solid #D0D0D3;
-}
-
 main .container-60 .business-plan-col-h {
   width: 100%;
   height: 250px;
   border: 1px solid #D0D0D3;
-  /*debug*/
-  /* background-color: lightcoral; */
 }
 
 .business-plan-col-h .business-plan-target {
@@ -82,10 +99,6 @@ main .container-60 .business-plan-col-h {
 .partner-box-img {
   width: 55%;
   margin-right: 40px;
-  /*debug*/
-  /* height: 600px;
-  background-color: lightgreen;
-  border: 1px solid green; */
 }
 
 .partner-box-img img {
@@ -94,27 +107,20 @@ main .container-60 .business-plan-col-h {
 
 .partner-box-text {
   width: 45%;
-  /*debug*/
-  /* height: 600px;
-  background-color: lightskyblue;
-  border: 1px solid blue; */
+}
+
+.partner-box-text a:hover {
+  background-color: #0061FF;
+  color: white;
+  transition: 0.6s;
+  text-decoration: none;
 }
 
                 /*  THIRD SECTION  */
 
-/* .business-op-row {
-  height: 1200px;
-  border: 2px solid green;
-  background-color: lightgreen;
-} */
-
 .business-op-col {
   width: calc(100% / 3);
   padding: 10px 50px 60px 0;
-  /*debug*/
-  /* height: 600px;
-  border: 1px solid blue;
-  background-color: lightskyblue; */
 }
 
 .business-op-col img {
@@ -125,16 +131,17 @@ main .container-60 .business-plan-col-h {
 
 .business-team-title {
   width: 60%;
-  /*debug*/
-  /* background-color: blanchedalmond; */
+}
+
+.business-team-title a {
+  text-decoration: none;
+}
+
+.business-team-title a:hover {
+  text-decoration: underline;
 }
 
 /* ********************************************************************************* */
-
-/* .business-team-body {
-  debug
-  background-color: cornflowerblue;
-} */
 
 .business-team-left {
   width: 30%;
@@ -144,9 +151,6 @@ main .container-60 .business-plan-col-h {
 .team-lx {
   width: 50%;
   height: 15vw;
-  /*debug*/
-  /* background-color: lightcoral;
-  border: 1px solid black; */
 }
 
 .team-lx img {
@@ -203,9 +207,6 @@ main .container-60 .business-plan-col-h {
 .team-rx {
   width: 50%;
   height: 15vw;
-  /*debug*/
-  /* background-color: lightcoral;
-  border: 1px solid black; */
 }
 
 .team-rx img {
@@ -228,7 +229,9 @@ main .container-60 .business-plan-col-h {
 #clear {
   background-color: #FFD830;
 }
+
 /* ****************************************************************************** */
+
 .cta {
   height: 400px;
   background-color: #B4D0E7;
@@ -248,6 +251,18 @@ main .container-60 .business-plan-col-h {
   padding: 50px;
 }
 
+.cta-btn a {
+  border: 2px solid black;
+}
+
+.cta-btn a:hover {
+  background-color: #61082B;
+  color: #B0CCE2;
+  transition: 0.6s;
+  text-decoration: none;
+  border: 2px solid white;
+}
+
                 /*  FIFTH SECTION  */
 
 .faq hr {
@@ -255,12 +270,30 @@ main .container-60 .business-plan-col-h {
   border: 1px solid #DEDEE0;
 }
 
-.faq p {
-  display: none;
+.faq {
+  position: relative;
 }
 
-.faq:hover p{
-  display: block;
+
+.item:hover .item {
+  bottom: 120px;
+}
+
+.item p {
+  /* display: none; */
+  position: absolute;
+  height: 1px;
+  overflow: hidden;
+  background-color: white;
+}
+
+.item:hover p {
+  /* display: block; */
+  width: 100%;
+  height: 50px;
+  margin-bottom: 50px;
+  transition-duration: 2s;
+  transition: 0.5s;
 }
 
 .panel {
