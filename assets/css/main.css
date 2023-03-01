@@ -232,7 +232,7 @@ main .container-60 .business-plan-col-h {
 }
 /* ****************************************************************************** */
 .cta {
-  height: 350px;
+  height: 400px;
   background-color: #B4D0E7;
 }
 
@@ -249,3 +249,34 @@ main .container-60 .business-plan-col-h {
 .cta-btn {
   padding: 50px;
 }
+
+                /*  FIFTH SECTION  */
+
+.faq hr {
+  width: 100%;
+  border: 1px solid #DEDEE0;
+}
+
+.faq p {
+  display: none;
+}
+
+.faq:hover p{
+  display: block;
+}
+
+.panel {
+  justify-content: space-between;
+}
+
+.accordion {
+  cursor: pointer;
+  width: 100%;
+}
+
+.chevron {
+  margin-right: 10px;
+}
+
+
+
