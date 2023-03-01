@@ -1,0 +1,37 @@
+footer {
+  height: 500px;
+  background-color: black;
+  color: white;
+}
+
+footer a {
+  color: white;
+  line-height: 2rem;
+}
+
+footer hr {
+  width: 10%;
+  color: #DEDEE0;
+  border: 1px solid #DEDEE0;
+  margin-bottom: 50px;
+}
+
+.nav-row {
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+
+.nav-col {
+  padding-top: 100px;
+}
+
+.language-selection {
+  color: #DEDEE0;
+}
+
+select#lang-select {
+  border: none;
+  background-color: black;
+  color: #DEDEE0;
+  font-size: .9rem;
+}
