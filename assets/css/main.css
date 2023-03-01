@@ -133,20 +133,19 @@ main .container-60 .business-plan-col-h {
 
 /* ********************************************************************************* */
 
-.business-team-body {
-  /*debug*/
+/* .business-team-body {
+  debug
   background-color: cornflowerblue;
-  height: 550px;
-}
+} */
 
 .business-team-left {
   width: 30%;
-  /* height: 30vw; */
+  height: 30vw;
 }
 
 .team-lx {
   width: 50%;
-  height: 50%;
+  height: 15vw;
   /*debug*/
   /* background-color: lightcoral;
   border: 1px solid black; */
@@ -180,6 +179,7 @@ main .container-60 .business-plan-col-h {
 
 .business-team-middle {
   width: 40%;
+  height: 30vw;
   background-color: #F5F5F5;
   overflow-y: scroll;
 }
@@ -199,11 +199,12 @@ main .container-60 .business-plan-col-h {
 .business-team-right {
   width: 30%;
   /*debug*/
+  height: 30vw;
 }
 
 .team-rx {
   width: 50%;
-  height: 50%;
+  height: 15vw;
   /*debug*/
   /* background-color: lightcoral;
   border: 1px solid black; */
