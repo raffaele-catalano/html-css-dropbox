@@ -24,24 +24,33 @@
   <header>
     <div class="container-100 flex align-cx">
             <!-- logo dropbox -->
-      <img src="assets/img/logo-small.png" alt="logo" title="logo">
+      <a href="#home"><img src="assets/img/logo-small.png" alt="logo" title="logo"></a>
       <!-- nav menu container -->
       <div class="nav flex px-2">
         <!-- nav menu left side -->
         <div class="nav-menu-left flex align-cx">
           <ul class="flex">
-            <li class="px-2 caps"><a href="#">perchè dropbox&quest;</a></li>
-            <li class="px-2 caps"><a href="#">funzioni</a></li>
-            <li class="px-2 caps"><a href="#">piani - prezzi</a></li>
+            <li class="mx-2 caps"><a href="#">perchè dropbox&quest;</a></li>
+            <li class="mx-2 caps"><a href="#">funzioni</a></li>
+            <li class="mx-2 caps"><a href="#">piani - prezzi</a></li>
           </ul>
         </div>
         <!-- nav menu right side -->
         <div class="nav-menu-right flex align-cx">
           <ul class="flex">
-            <li class="px-2 caps"><a href="#">supporto</a></li>
-            <li class="px-2 caps"><a href="#">contatti</a></li>
-            <li class="px-2 caps"><a href="#">accedi</a></li>
-            <li class="px-2 caps"><a class="btn " href="#">inizia</a></li>
+            <li class="mx-2 caps">
+              <a href="#">supporto</a>
+              <div class="dropdown">
+                <ul>
+                  <li><a class="caps" href="#">servizio clienti</a></li>
+                  <li><a class="upper" href="#faq">faq</a></li>
+              </ul>
+              </div>
+            </li>
+
+            <li class="mx-2 caps"><a href="#">contatti</a></li>
+            <li class="mx-2 caps"><a href="#">accedi</a></li>
+            <li class="mx-2 caps"><a class="btn " href="#">inizia</a></li>
           </ul>
         </div>
       </div>
@@ -58,7 +67,7 @@
 
       <div class="text-box flex">
         <p>
-        Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto. Dropbox Business è più di uno spazio di archiviazione sicuro: è un modo intelligente e integrato per ottimizzare il flusso di lafvoro esistente.
+        Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto. Dropbox Business è più di uno spazio di archiviazione sicuro: è un modo intelligente e integrato per ottimizzare il flusso di lavoro esistente.
         </p>
         <span><a class="btn txt-12" href="#">Inizia la tua prova gratuita</a></span>
         <span class="txt-09 mbtm-2">Annulla in qualsiasi momento</span>
@@ -78,7 +87,7 @@
       <section class="mbtm-15" id="trial">
         <h2 class="strong txt-25 mbtm-4" >Trova il piano Dropbox Business che fa per te</h2>
       <input type="radio" name="mensile"> Fatturazione Mensile
-      <input type="radio" name="annuale"> Fatturazione Annuale
+      <input class="mbtm-3" type="radio" name="annuale"> Fatturazione Annuale
       <!-- *********************CAMBIARE IN FAKE BUTTONS *************************** -->
       <div class="business-plan-row flex">
 <!-- first vertical column -->
@@ -435,57 +444,66 @@
     </div>
 <!-- fifth section-->
     <div class="container-70">
-      <section class="faq">
+      <section class="faq" id="faq">
         <h2 class="strong txt-25 py-3 mbtm-3 caps">domande frequenti</h2>
         <hr class="mbtm-3">
-        <div class="panel flex">
-          <div class="accordion mbtm-3 txt-11">
-            <h3>Qual è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</h3>
+        <div class="item">
+          <div class="panel flex">
+            <div class="accordion mbtm-3 txt-11">
+              <h3>Qual è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</h3>
+            </div>
+            <div class="chevron">
+              <i class="fa-solid fa-chevron-down txt-12"></i>
+            </div>
           </div>
-          <div class="chevron">
-            <i class="fa-solid fa-chevron-down txt-12"></i>
-          </div>
-        </div>
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur, est officiis, quam eum ad ipsum temporibus hic esse iure praesentium, reiciendis aliquam illum! Explicabo accusamus aliquid eius, fuga corrupti ullam.
-        </p>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur, est officiis, quam eum ad ipsum temporibus hic esse iure praesentium, reiciendis aliquam illum! Explicabo accusamus aliquid eius, fuga corrupti ullam.
+          </p>
+      </div>
         <hr class="mbtm-3">
-        <div class="panel flex">
-          <div class="accordion mbtm-3 txt-11">
-            <h3>Qual è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</h3>
+        <div class="item">
+          <div class="panel flex">
+            <div class="accordion mbtm-3 txt-11">
+              <h3>Qual è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</h3>
+            </div>
+            <div class="chevron">
+              <i class="fa-solid fa-chevron-down txt-12"></i>
+            </div>
           </div>
-          <div class="chevron">
-            <i class="fa-solid fa-chevron-down txt-12"></i>
-          </div>
-        </div>
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur, est officiis, quam eum ad ipsum temporibus hic esse iure praesentium, reiciendis aliquam illum! Explicabo accusamus aliquid eius, fuga corrupti ullam.
-        </p>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur, est officiis, quam eum ad ipsum temporibus hic esse iure praesentium, reiciendis aliquam illum! Explicabo accusamus aliquid eius, fuga corrupti ullam.
+          </p>
+      </div>
         <hr class="mbtm-3">
-        <div class="panel flex">
-          <div class="accordion mbtm-3 txt-11">
-            <h3>Qual è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</h3>
+        <div class="item">
+          <div class="panel flex">
+            <div class="accordion mbtm-3 txt-11">
+              <h3>Qual è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</h3>
+            </div>
+            <div class="chevron">
+              <i class="fa-solid fa-chevron-down txt-12"></i>
+            </div>
           </div>
-          <div class="chevron">
-            <i class="fa-solid fa-chevron-down txt-12"></i>
-          </div>
-        </div>
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur, est officiis, quam eum ad ipsum temporibus hic esse iure praesentium, reiciendis aliquam illum! Explicabo accusamus aliquid eius, fuga corrupti ullam.
-        </p>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur, est officiis, quam eum ad ipsum temporibus hic esse iure praesentium, reiciendis aliquam illum! Explicabo accusamus aliquid eius, fuga corrupti ullam.
+          </p>
+      </div>
         <hr class="mbtm-3">
-        <div class="panel flex">
-          <div class="accordion mbtm-3 txt-11">
-            <h3>Qual è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</h3>
+        <div class="item">
+          <div class="panel flex">
+            <div class="accordion mbtm-3 txt-11">
+              <h3>Qual è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</h3>
+            </div>
+            <div class="chevron">
+              <i class="fa-solid fa-chevron-down txt-12"></i>
+            </div>
           </div>
-          <div class="chevron">
-            <i class="fa-solid fa-chevron-down txt-12"></i>
-          </div>
-        </div>
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur, est officiis, quam eum ad ipsum temporibus hic esse iure praesentium, reiciendis aliquam illum! Explicabo accusamus aliquid eius, fuga corrupti ullam.
-        </p>
-        <hr>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur, est officiis, quam eum ad ipsum temporibus hic esse iure praesentium, reiciendis aliquam illum! Explicabo accusamus aliquid eius, fuga corrupti ullam.
+          </p>
+      </div>
+      <hr>
+
       </section>
     </div>
   </main>
